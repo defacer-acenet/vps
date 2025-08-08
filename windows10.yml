@@ -7,7 +7,7 @@ services:
       USERNAME: "admin"
       PASSWORD: "vps12345"
       RAM_SIZE: "5G"
-      CPU_CORES: "32"
+      CPU_CORES: "18"
       DISK_SIZE: "400G"
       DISK2_SIZE: "200G"
     devices:
