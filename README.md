@@ -23,7 +23,6 @@ services:
   windows:
     image: dockurr/windows
     container_name: windows
-
     environment:
       VERSION: "10"
       USERNAME: "MASTER"
@@ -32,19 +31,15 @@ services:
       CPU_CORES: "4"
       DISK_SIZE: "600G"
       DISK2_SIZE: "200G"
-
     devices:
       - /dev/kvm
       - /dev/net/tun
-
     cap_add:
       - NET_ADMIN
-
     ports:
       - "8006:8006"
       - "3389:3389/tcp"
       - "3389:3389/udp"
-
     stop_grace_period: 2m
 
 ▶️ Chạy Windows trong Docker
