@@ -10,6 +10,7 @@ docker -v
 docker compose version
 📂 Cấu trúc file docker-compose
 Tạo file windows10.yml với nội dung:
+
 version: "3.8"
 services:
 windows:
@@ -33,6 +34,7 @@ ports:
 - "3389:3389/tcp"
 - "3389:3389/udp"
 stop_grace_period: 2m
+
 ▶️ Chạy Windows trong Docker
 sudo docker-compose -f windows10.yml up -d
 🐛 Các lỗi thường gặp & cách khắc phục
