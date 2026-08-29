@@ -1,4 +1,7 @@
 # Windows 10 Docker
+Docker vps:
+
+docker run -p 6688:80 dorowu/ubuntu-desktop-lxde-vnc
 
 Chạy Windows 10 trên VPS bằng Docker và KVM.
 
