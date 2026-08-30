@@ -20,6 +20,7 @@ echo
 # Kiểm tra speedtest
 if ! command -v speedtest >/dev/null 2>&1; then
     echo -e "${YELLOW}Chưa cài Ookla Speedtest CLI,để tôi cài.${RESET}"
+    echo
     if [[ "$(uname)" == "Linux" ]]; then
         sudo apt install speedtest-cli
     else
