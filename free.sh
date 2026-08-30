@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 echo "===== DUNG LƯỢNG Ổ ĐĨA ====="
 echo
 
