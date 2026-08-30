@@ -171,7 +171,7 @@ Nếu `/dev/kvm` không tồn tại, VPS có thể chưa hỗ trợ hoặc chưa
 sudo docker network connect vps_default windows
 ```
 
-### `Lỗi không download được file iso`
+### `Error response from daemon: failed to set up container networking...`
 
 ```bash
 sudo mkdir -p /usr/libexec/docker
