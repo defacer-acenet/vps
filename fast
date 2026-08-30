@@ -1,4 +1,0 @@
-#!/bin/bash
-
-speed=$(npx --yes fast-cli --json 2>/dev/null | jq -r '.download')
-printf "%.0f Mbps\n" "$speed"
