@@ -167,7 +167,16 @@ Nếu `/dev/kvm` không tồn tại, VPS có thể chưa hỗ trợ hoặc chưa
 
 ### `Lỗi không download được file iso`
 
+```bash
 sudo docker network connect vps_default windows
+```
+
+### `Lỗi không download được file iso`
+
+```bash
+sudo mkdir -p /usr/libexec/docker
+sudo ln -sf /usr/bin/docker-proxy /usr/libexec/docker/docker-proxy
+```
 
 ### `permission denied on /dev/kvm`
 
