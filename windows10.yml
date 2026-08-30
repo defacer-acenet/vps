@@ -9,8 +9,7 @@ services:
       PASSWORD: "vps12345"
       RAM_SIZE: "5G"
       CPU_CORES: "2"
-      DISK_SIZE: "65G"
-      DISK2_SIZE: "150G"
+      DISK_SIZE: "25"
     devices:
       - /dev/kvm
       - /dev/net/tun
