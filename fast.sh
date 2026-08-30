@@ -25,6 +25,7 @@ if ! command -v speedtest >/dev/null 2>&1; then
     else
         brew install speedtest-cli
     fi
+fi
 
 echo -e "${YELLOW}Đang kiểm tra tốc độ...${RESET}"
 echo
