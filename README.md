@@ -165,6 +165,10 @@ ls -la /dev/kvm
 
 Nếu `/dev/kvm` không tồn tại, VPS có thể chưa hỗ trợ hoặc chưa bật KVM.
 
+### `Lỗi không download được file iso`
+
+sudo docker network connect vps_default windows
+
 ### `permission denied on /dev/kvm`
 
 Thêm user vào nhóm `kvm`:
