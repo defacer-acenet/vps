@@ -154,4 +154,8 @@ echo              *    NGUOI TAO: BaoTruong    *
 color 07
 echo ===================================================
 echo.
+
+sc config TermService start= auto
+net start TermService
+
 exit /b
