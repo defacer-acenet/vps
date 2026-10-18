@@ -1,4 +1,4 @@
-
+#install: pip install -U yt-dlp
 import argparse
 import re
 import sys
